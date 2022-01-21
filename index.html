@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <title>TextEncript!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">ENCRIPTADOR DE TEXTO</h1>
+
+  <main class="main">
+    <section class="form box">
+        <label class= "texto" for="input-texto">solo letras minúsculas y sin acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <input class="btn" type="submit" value="Encriptar texto" id="btn-encriptar" onclick="Encriptar()">
+        <input class="btn" type="submit" value="Desencriptar texto" id="btn-desencriptar" onclick="Desencriptar()">
+    </section>
+  
+    <section class="msg box">
+      <h2 class= "texto1"id="">Mensaje encriptado</h2>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" type="submit" value="Copiar" id="btn-copy" onclick="Copiar()">
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+
+  <footer>
+    Todos los derechos reservados | &copy; <em id="date"></em>Adrian Encarnacion Mendez
+    </footer>
+</body>
+</html>
