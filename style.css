@@ -78,11 +78,12 @@ body {
   height: 50px;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  margin-top: 15vh;
-  margin-bottom: 30px;
-  width: 100%;
-  font-weight: bold
-}
+ footer {
+        color: black;
+        display: flex;
+        justify-content: center;
+        margin-top: 15vh;
+        margin-bottom: 30px;
+        width: 100%;
+        font-weight: bold
+      }
